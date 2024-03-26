@@ -1,23 +1,52 @@
+/* Simple Styles */
 body {
-    background: #DDDDDD;
-}
-
-.navbar {
-    background-color: #800000;
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header, footer {
+    background-color: #333;
     color: white;
-}
-
-.page-container {
-    margin-top: 75px;
-}
-
-.no-gutters>.col, .no-gutters>[class*=col-] {
-
-    padding-right: 2px;
-    padding-left: 2px;
-
-}
-#counterText{
-    font-size: 3em;
     text-align: center;
-}
+    padding: 10px 0;
+  }
+  
+  header h1, main h1 {
+    margin: 0;
+    padding: 10px;
+  }
+  
+  nav {
+    background-color: #f2f2f2;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  nav a {
+    color: #333;
+    text-decoration: none;
+    margin: 0 15px;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  img#mypicture {
+    display: block;
+    max-width: 100%; /* Ensures image is responsive and fits within its container */
+    height: auto;
+    margin: 20px auto;
+  }
+  
+  p {
+    line-height: 1.6;
+  }
+  
+  footer {
+    margin-top: 20px;
+  }
+  
